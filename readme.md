@@ -49,9 +49,10 @@ https://ampragatish1.pythonanywhere.com/get-lab-tests
 # Test with curl:
    ```bash
     curl -X POST -F "image=@your_image.png" https://ampragatish1.pythonanywhere.com/get-lab-tests | python -m json.tool
+```
 
 
-## Project Structure:
+Project Structure:
             .
         ├── main.py           # FastAPI backend
         ├── flask_app.py      # Flask wrapper for WSGI compatibility (PythonAnywhere)
