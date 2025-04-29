@@ -46,6 +46,11 @@ Returns extracted test results in JSON format.
 Hosted URL:
 https://ampragatish1.pythonanywhere.com/get-lab-tests
 
+# Test with curl:
+    ```bash
+    curl -X POST -F "image=@your_image.png" https://ampragatish1.pythonanywhere.com/get-lab-tests | python -m json.tool
+
+
 ## Project Structure:
             .
         ├── main.py           # FastAPI backend
