@@ -47,7 +47,7 @@ Hosted URL:
 https://ampragatish1.pythonanywhere.com/get-lab-tests
 
 # Test with curl:
-    ```bash
+   ```bash
     curl -X POST -F "image=@your_image.png" https://ampragatish1.pythonanywhere.com/get-lab-tests | python -m json.tool
 
 
