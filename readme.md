@@ -53,11 +53,13 @@ https://ampragatish1.pythonanywhere.com/get-lab-tests
 
 
 Project Structure:
+   ```bash
             .
         ├── main.py           # FastAPI backend
         ├── flask_app.py      # Flask wrapper for WSGI compatibility (PythonAnywhere)
         ├── requirements.txt  # Dependencies
         └── README.md
+```
 
 ## 🧠 Credits
 Built by @pragatish for Bajaj Finserv internal lab report processing use-case.
